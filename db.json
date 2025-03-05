@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Joanna",
+      "points": 100
+    },
+    {
+      "id": 2,
+      "name": "Alexandra",
+      "points": 150
+    },
+    {
+      "id": 3,
+      "name": "Petros",
+      "points": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "tacos",
+      "points": 15,
+      "status": 1
+    },
+    {
+      "id": 2,
+      "name": "japanese",
+      "points": 10,
+      "status": 1
+    },
+    {
+      "id": 3,
+      "name": "lamb",
+      "points": 5,
+      "status": 0
+    },
+    {
+      "id": 4,
+      "name": "italian",
+      "points": 10,
+      "status": 0
+    },
+    {
+      "id": 5,
+      "name": "sushi",
+      "points": 15,
+      "status": 0
+    },
+    {
+      "id": 6,
+      "name": "ice cream",
+      "points": 15,
+      "status": 0
+    },
+    {
+      "id": 7,
+      "name": "soup",
+      "points": 15,
+      "status": 0
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+/* TOP BAR */
+/* top back style */
+header {
+    background-color: #37104E;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 999;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.statusBar {
+    background-color: #5E0076;
+    margin-top: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.0rem;
+}
+
+/* universal selector? ask Joanna if there is some other way to do this, or do manually!
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+
+/* top bar text */
+h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 2.0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* top bar style for back arrow combination */
+.topBar {
+    display: flex;
+    flex-direction: row;
+}
+
+/* BACK ARROW */
+.back-text {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 30%;
+}
+
+/* back arrow text size */
+.arrow-left {
+    font-size: 4.5rem;
+}
+
+/* BODY STYLE */
+/* background color for body  */
+body {
+    background: linear-gradient(to bottom, #d80028, #ffa800);
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* body scrolling margin */
+.main {
+    margin-top: 17%;
+    margin-bottom: 10%;
+}
+
+/* NAVIGATION BAR */
+/* navigation list style */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* navigation style */
+.navBar {
+    overflow: hidden;
+    background-color: #37104E;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* navigation text */
+.nav-link {
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2.0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* active background for navigation */
+.nav-link.active {
+    padding: 10px;
+    background-color: #190723;
+}
+
+/* DEFINE BUTTON STYLE*/
+/* overall button style */
+.generic-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5E0076;
+    margin: 1% 6%;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    font-size: 2.0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.generic-button:hover {
+    background-color: #540069;
+}
+
+.complete.clicked {
+    background-color: #15FF10;
+}
+
+.button-text {
+    flex-grow: 1;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* button column defined */
+.button-div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* arrow in button */
+.arrow {
+    margin-left: 40%;
+    font-size: 10.0rem;
+}
+
+.button-not-clickable {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    background-color: #5E0076;
+    padding: 20px 50px;
+    margin: 30 100px;
+    border: none;
+    border-radius: 18px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button-add-a-friend {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    background-color: #FFC107;
+    padding: 10px 25px;
+    margin: 30 100px;
+    font-size: 16px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    /* cursor: pointer; */
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.button-add-a-friend:hover {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    background-color: #FFA800;
+    padding: 10px 25px;
+    margin: 30 100px;
+    font-size: 16px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    /* cursor: pointer; */
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Search text input style */
+#textInput {
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #37104E;
+    border-radius: 5px;
+    font-size: 3.0rem;
+}
+
+/* define the style for the completion circles */
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #37104E;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #15FF10;
+    cursor: pointer;
+    position: relative;
+    margin-left: 5%;
+}
+
+#check {
+    display: none;
+    /* Position the icon relative to the circle */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* Center the icon */
+    transform: translate(-50%, -50%);
+    color: #37104E;
+    font-size: 5.0rem;
+}
+
+/* define style for when circle is clicked*/
+.circle.clicked {
+    background-color: #15FF10;
+    /* Change the background color when clicked */
+}
+
+/* toggle check mark */
+#check.show {
+    display: block;
+}
+
+
+.icon-container {
+    display: flex;
+    /* Enables flexbox layout */
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+}
+
+.icon-circle {
+    width: 400px;
+    /* Set the width of the circle */
+    height: 400px;
+    /* Set the height of the circle */
+    background-color: #5E0076;
+    /* Set the background color of the circle */
+    border-radius: 50%;
+
+}
+
+.profile-text {
+    color: #37104E;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.horizontal-scroll {
+    display: flex;
+    /* Aligns children in a row */
+    overflow-x: auto;
+    /* Enables horizontal scrolling */
+    white-space: nowrap;
+    /* Prevents wrapping of content */
+    height: 100vh;
+    /* Example height */
+    align-items: stretch;
+    /* Stretch items to fill the container height */
+}
+
+.horizontal-section {
+    flex: 0 0 auto;
+    /* Prevents sections from growing or shrinking */
+    width: 100vw;
+    /* Each section takes full viewport width */
+    margin: 10px;
+    /* Optional margin for spacing between sections */
+    background-color: lightblue;
+    /* Example background color */
+    display: flex;
+    /* To center content, if needed */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+}
+
+.food-icon {
+    width: 400px;
+    /* Width of the square */
+    height: 400px;
+    /* Height of the square */
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5rem;
+}
+
+.recipe {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ingredients {
+    margin-right: 20px;
+    /* Add some space between the ingredients and the paragraph */
+}
+
+.ingredients ul {
+    list-style: none;
+    /* Remove bullet points from the list */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.ingredients li {
+    font-size: 24px;
+    /* Set the font size for the ingredients */
+}
+
+.instructions p {
+    font-size: 16px;
+    /* Set the font size for the paragraph */
+    line-height: 1.5;
+    /* Set the line height for better readability */
+}
+
+/* MOBILE STYLE */
+@media only screen and (max-device-width: 480px) {
+
+    /* TOP BAR */
+
+    h1 {
+        margin-top: 6%;
+        margin-bottom: 6%;
+        font-size: 5.0rem;
+    }
+
+    .statusBar {
+        margin-top: 3px;
+        border-top-width: 3px;
+        border-bottom-width: 3px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+        font-size: 3.0rem;
+    }
+
+    /* BACK ARROW */
+    .back-text {
+        text-decoration: none;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+
+    /* back arrow text size */
+    .arrow-left {
+        font-size: 10.0rem;
+    }
+
+    /* NAVIGATION BAR */
+    /* class for navigation text */
+    .nav-link {
+        padding: 14px 16px;
+        font-size: 5.0rem;
+        margin: 10%;
+    }
+
+    /* BODY STYLE */
+    /* body scrolling margin */
+    .main {
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+
+    /* DEFINE BUTTON STYLE*/
+    /* overall button style */
+    .generic-button {
+        padding: 2% 5%;
+        margin: 5% 5%;
+        font-size: 4.0rem;
+    }
+
+    /* Define profile text */
+    .profile-text {
+        font-size: 4.0rem;
+    }
+
+    .button-text {
+        font-size: 4.0rem;
+    }
+
+    .button-not-clickable {
+        font-size: 3.5rem;
+    }
+}
